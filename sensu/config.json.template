@@ -1,0 +1,22 @@
+{
+  "rabbitmq": {
+    "host": "$RABBIT_SERVER",
+    "port": $RABBIT_PORT,
+    "vhost": "$RABBIT_VHOST",
+    "user": "$RABBIT_USER",
+    "password": "$RABBIT_PASS",
+    "ssl": {
+      "cert_chain_file": "/etc/sensu/ssl/cert.pem",
+      "private_key_file": "/etc/sensu/ssl/key.pem"
+    }
+  },
+  "redis": {
+    "host": "$REDIS_SERVER",
+    "port": $REDIS_PORT
+  },
+  "api": {
+    "host": "localhost",
+    "bind": "0.0.0.0",
+    "port": 4567
+  }
+}

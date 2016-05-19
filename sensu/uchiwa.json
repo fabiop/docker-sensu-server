@@ -1,0 +1,28 @@
+{
+"Sensu": [
+    {
+      "Name": "Sensu",
+      "Host": "127.0.0.1",
+      "Port": 4567,
+      "Ssl": false,
+      "Insecure": false,
+      "URL": "http://127.0.0.1:4567",
+      "User": "",
+      "Path": "",
+      "Pass": "",
+      "Timeout": 5
+    }
+  ],
+  "Uchiwa": {
+    "Host": "0.0.0.0",
+    "Port": 3000,
+    "Refresh": 10,
+    "Pass": "",
+    "User": "",
+    "Users": [],
+    "Audit": {
+      "Level": "default",
+      "Logfile": "/var/log/sensu/sensu-enterprise-dashboard-audit.log"
+    }
+  }
+}

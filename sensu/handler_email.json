@@ -1,0 +1,8 @@
+{
+  "handlers": {
+    "email": {
+      "type": "pipe",
+      "command": "/etc/sensu/mail.sh"
+    }
+  }
+}
